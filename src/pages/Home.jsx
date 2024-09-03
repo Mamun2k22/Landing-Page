@@ -2,12 +2,12 @@ import React from "react";
 
 import { Nav } from "./Nav";
 import MusicPlayer from "./MusicPlayer";
-import Cover from "./Cover";
+import Cover from "./DiscoverPrice";
 import Plan from "./Plan";
 import JoinUsForm from "./JoinUsForm";
 import Price from "./Price";
 import Contact from "./Contact";
-import JoinUsCover from "./JoinUsCover";
+import DiscoverPrice from "./DiscoverPrice";
 
 const Home = () => {
   return (
@@ -16,14 +16,15 @@ const Home = () => {
 
       <MusicPlayer />
       
-      <Cover />
+      <DiscoverPrice />
       <Plan />
      
-      <JoinUsCover/>
+
       <JoinUsForm/>
       
 
       <Contact />
+     
       {/* <ContactTwo /> */}
     </div>
   );

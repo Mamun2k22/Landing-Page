@@ -2,9 +2,9 @@ import React from "react";
 
 const JoinUsForm = () => {
   return (
-    <div className=" flex justify-center items-center inset-0 bg-opacity-50 mt-10 font-poppins  ">
-     <div className="w-full max-w-2xl border rounded-lg ">
-     <div className="flex items-center justify-between bg-gray-200 rounded-t-lg p-4 h-16 relative">
+    <div className=" flex justify-center items-center inset-0 bg-opacity-50 mt-10 font-poppins p-5 lg:p-2  ">
+     <div className="w-full max-w-xl border rounded-3xl ">
+     <div className="flex items-center justify-between bg-gray-200 rounded-t-3xl p-4 h-16 relative">
   <div className="flex-grow text-center">
     <h2 className="text-2xl font-semibold text-gray-700">Join us</h2>
   </div>
@@ -26,29 +26,29 @@ const JoinUsForm = () => {
   </button>
 </div>
 
-     <div className=" p-8 mx-4 relative">
+     <div className=" lg:p-8 p-4 mx-4 relative">
        
      
        <form>
          <input
            type="text"
            placeholder="your name"
-           className="w-full py-2 px-3 mb-6 border rounded-xl border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+           className="w-full py-2 px-5 mb-6 border rounded-xl border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
          />
          <input
            type="email"
            placeholder="your email"
-           className="w-full py-2 px-3 mb-6 border rounded-xl border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+           className="w-full py-2 px-5 mb-6 border rounded-xl border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
          />
          <input
            type="number"
            placeholder="sound engineering experience (years)"
-           className="w-full py-2 px-3 mb-6 border rounded-lg border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+           className="w-full py-2 px-5 mb-6 border rounded-lg border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
          />
          <input
            type="text"
            placeholder="primary genres"
-           className="w-full py-2 px-3 mb-6 border rounded-lg border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
+           className="w-full py-2 px-5 mb-6 border rounded-lg border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500"
          />
          <div className="bg-white py-3 px-2.5 rounded-lg">
            <label className="block text-gray-500 font-semibold mb-2">

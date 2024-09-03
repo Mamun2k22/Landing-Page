@@ -57,11 +57,11 @@ export const Nav = () => {
                 />
               </svg>
             </button>
-            {isMenuOpen && (
+            {/* {isMenuOpen && (
               <div class="absolute top-0 left-0 w-full">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
-                    {/* <div>
+                    <div>
                       <a
                         href="/"
                         aria-label="Company"
@@ -87,7 +87,7 @@ export const Nav = () => {
                           Company
                         </span>
                       </a>
-                    </div> */}
+                    </div>
                     <div>
                       <button
                         aria-label="Close Menu"
@@ -106,7 +106,7 @@ export const Nav = () => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>

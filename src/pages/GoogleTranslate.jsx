@@ -22,7 +22,7 @@ const GoogleTranslate = () => {
       <img
         src="https://cdn-icons-png.flaticon.com/128/2875/2875427.png"
         alt="Google Translate Icon"
-        className="w-4www h-4"
+        className="w-4 h-4"
       />
     </div>
   );
